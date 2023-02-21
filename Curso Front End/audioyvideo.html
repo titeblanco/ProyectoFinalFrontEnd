@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio y Video</title>
+</head>
+<body>
+        <!-- Este es un video como recurso local -->
+        <video width="320px" height="240px" controls>
+            <source src="Videos/hielo_azul.mp4" type="video/mp4">
+            <source src="Videos/hielo_azul.ogg" type="video/ogg">
+            No se puede reproducir el video.
+        </video>
+
+        <!-- Este es un audio tomado de una pagina -->
+        <audio controls>
+            <source src="https://www.w3schools.com/html/horse.mp3" type="audio/mpeg">
+            <source src="https://www.w3schools.com/html/horse.ogg" type="audio/ogg">
+            No se puede reproducir el audio.
+        </audio>
+
+        <!-- Este es un video desde youtube -->
+        <iframe width="420" height="315" 
+            src="https://www.youtube.com/embed/tgbNymZ7vqY">
+        </iframe>
+
+        <!-- Este es otro video desde youtube pero con todos los atributos que tiene en youtube-->
+        <iframe width="560" height="315" 
+            src="https://www.youtube.com/embed/2teUfEHktEI" title="YouTube video player" 
+            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+
+        </iframe>
+
+</body>
+</html>
